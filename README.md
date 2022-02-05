@@ -8,13 +8,16 @@
 - Adressierung Prozess
   - Aktueller Wert des Programmzählers
   - Aktuelle Werte der Register und Variablen
+
 ## Kontext
 - Prozesskontext -> Ein Prozesskontext beinhaltet den aktuellen Systemzustand (Ausführungszustand). Er wird vollständig beschrieben. Dazu zählen unter anderem Prozessstatus-Informationen und CPU-Register Belegungen.
 - Ein Prozess-Kontext beinhaltet alles, was man für eine Weiterführung eines unterbrochenen Prozesses benötigt, um diesen auf dem lokalen Computersystem fortsetzen zu können.
+
 ## Image
 - Prozess-Image: Als Image eines Prozesses bezeichnet man die Gesamtheit der physischen Betandteile eines Prozesses, also insbesondere seine Befehlsfolge (Trace), aber auch seinen Kontext, lokale und globale Variablen und der Ausführungs-Stack.
 - Zu einem Prozess-Image gehört alles, was man von einem unterbrochenen Prozess benötigt, um ihn auf ein anderes Computersystem zu transportieren und dort fortzusetzen.
 - Prozess-Image = Prozess-Kontext + Programm + Stack
+
 ## Uniprogramming
 - Beim Uniprogramming werden Prozesse sequenziell nacheinander, vollständig und ohne Unterbrechung ausgeführt.
   - Vorteile
